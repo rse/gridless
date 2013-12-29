@@ -2,8 +2,6 @@
 GridLESS &mdash; Grid System for LESS CSS
 =========================================
 
-"A Web developer goes into a bar, but leaves as soon as he sees the table layout."
-
 Abstract
 --------
 
@@ -185,6 +183,8 @@ Use it like this:
 
 HTML Tables vs. CSS Grids
 -------------------------
+
+"A Web developer goes into a bar, but leaves as soon as he sees the table layout." &mdash; unknown
 
 People since years debate on "HTML Tables vs. CSS Positioning for
 Layouting Content". The common consensus is that CSS Positioning is

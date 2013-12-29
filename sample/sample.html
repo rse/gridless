@@ -4,9 +4,12 @@
         <meta charset="utf-8"/>
         <title>Grid</title>
         <link rel="stylesheet/less" href="sample.less"/>
+        <script>
+            less = { env: "development" };
+        </script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.5.0/less.min.js"></script>
         <style type="text/css">
-            body { font-size: 12pt; }
+            body { font-size: 12pt; margin: 20px; }
             .g-elastic.row       { background-color: #cccccc; } 
             .g-elastic.row > div { background-color: #666666; color: #ffffff; font-family: sans-serif; font-size: 12pt; text-align: center; } 
             .g-static.row        { background-color: #999999; } 
@@ -385,6 +388,15 @@
                 <div class="off-1-4 col-1-4">1-4</div>
             </div>
             <div class="g-elastic row">
+                <div class="off-1-4 col-1-4">1-4</div>
+                <div class="off-1-4 col-1-4">1-4</div>
+            </div>
+            <div class="g-elastic row">
+                <div class="off-1-4 col-1-4">1-4</div>
+                <div class="col-1-4">1-4</div>
+                <div class="col-1-4">1-4</div>
+            </div>
+            <div class="g-elastic row">
                 <div class="col-1-1">1-1</div>
             </div>
 
@@ -416,6 +428,15 @@
             <div class="g-static row">
                 <div class="col-2-4">2-4</div>
                 <div class="off-1-4 col-1-4">1-4</div>
+            </div>
+            <div class="g-static row">
+                <div class="off-1-4 col-1-4">1-4</div>
+                <div class="off-1-4 col-1-4">1-4</div>
+            </div>
+            <div class="g-static row">
+                <div class="off-1-4 col-1-4">1-4</div>
+                <div class="col-1-4">1-4</div>
+                <div class="col-1-4">1-4</div>
             </div>
             <div class="g-static row">
                 <div class="col-1-1">1-1</div>

@@ -208,6 +208,10 @@
         float: left;
         margin: 0 @gutter12;
     }
+    & > [class*='@{name-col}-'] + [class*='@{name-off}-'] {
+        left: @gutter12;
+        margin-right: @gutter12;
+    }
     & > [class*='@{name-col}-']:first-of-type {
         margin-left: 0;
     }
@@ -238,7 +242,7 @@
     @col-max:   @grid-def-col-max;
     @col-width: @grid-def-col-width;
     @gut-width: @grid-def-gut-width;
-    @elastic:     false
+    @elastic:   false
 ) {
     @row-width: (@col-width * @col-max) + (@gut-width * (@col-max - 1)) * 1px;
     .grid-col-step1(@col-num; @col-max; @col-width; @gut-width; @row-width; @elastic);
@@ -277,8 +281,8 @@
 
 //  generate the style
 .grid-off-step2 (@col-num; @col-max; @col-width; @gut-width; @row-width; @row-width-req) when (@col-num < @col-max) {
-    left: round(
+    margin-left: round(
           ((@row-width-req * ((@col-width + @gut-width) * @col-num)) / @row-width),
-    8);
+    8) !important;
 }
 

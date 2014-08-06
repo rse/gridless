@@ -1,6 +1,6 @@
 {
     "name": "gridless",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Grid System for LESS CSS",
     "main": "grid.less",
     "homepage": "https://github.com/rse/gridless",

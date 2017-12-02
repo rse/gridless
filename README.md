@@ -121,7 +121,7 @@ such a pre-generated grid under the name "eg12", based on the following
 The generated `eg12.css` file can be used without LESS out-of-the-box.
 It provides the top-level CSS classes `g-row`, `g-off-K-N` and
 `g-col-K-N`. Because this grid is often used inside a single-page app
-and there even in in an arbitrary nested way, the grid is generated
+and there even in an arbitrary nested way, the grid is generated
 without a surrounding top-level CSS class as this makes it more
 intuitive and easier to use.
 

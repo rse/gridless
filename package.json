@@ -18,7 +18,7 @@
     "homepage": "https://github.com/rse/gridless",
     "bugs":     "https://github.com/rse/gridless/issues",
     "devDependencies": {
-        "grunt":                "~1.0.1",
+        "grunt":                "~1.0.2",
         "grunt-cli":            "~1.2.0",
         "grunt-contrib-cssmin": "~2.2.1",
         "grunt-contrib-less":   "~1.4.1",

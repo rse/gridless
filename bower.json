@@ -6,7 +6,7 @@
     "homepage": "https://github.com/rse/gridless",
     "license": "MIT",
     "authors": [
-        "Ralf S. Engelschall <rse@engelschall.com>"
+        "Dr. Ralf S. Engelschall <rse@engelschall.com>"
     ],
     "keywords": [
         "grid", "system", "column", "row", "css", "less"
